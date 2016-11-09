@@ -95,7 +95,7 @@ inline timing_t stopWithPrintTiming()
 #endif // end of ifdef TIMING_WIN32
 
 // unit: ms
-inline void wait(size_t ms)
+inline void wait(unsigned int ms)
 {
 #ifdef TIMING_WIN32
 	Sleep(ms);
